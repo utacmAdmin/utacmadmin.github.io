@@ -1,11 +1,11 @@
 /*
-	Phase Shift by TEMPLATED
+	Spatial by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-/* Wrapper */
+/* Basic */
 
-	.wrapper.style1 {
-		-ms-behavior: url("css/ie/backgroundsize.min.htc");
+	body, input, select, textarea {
+		font-size: 11pt;
 	}
