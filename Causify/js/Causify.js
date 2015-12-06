@@ -9,6 +9,11 @@ $("#startButton").click(function(){
          }, 2000);
 });
 
+$("#FBLoginButton").click(function(){
+   checkLoginState();
+});
+
+
 
 //FACEBOOK LOGIN
 
