@@ -91,7 +91,12 @@ $("#FBLoginButton").click(function(){
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
-      document.getElementById('status').innerHTML =
-        'Thanks for logging in, ' + response.name + '!';
+    });
+  }
+  
+    function getProfilePicture() {
+    console.log('Getting your pic.... ');
+    FB.api('/user/picture', function(response) {
+      $("#profilePic").css('background',('url('+response));
     });
   }
