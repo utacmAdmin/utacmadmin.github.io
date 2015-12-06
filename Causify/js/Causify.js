@@ -28,6 +28,7 @@ $("#FBLoginButton").click(function(){
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
       testAPI();
+      getProfilePicture();
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
       document.getElementById('status').innerHTML = 'Please log ' +
@@ -97,6 +98,7 @@ $("#FBLoginButton").click(function(){
     function getProfilePicture() {
     console.log('Getting your pic.... ');
     FB.api('/user/picture', function(response) {
-      $("#profilePic").css('background',('url('+response));
+      console.log(response);
+      //$("#profilePic").css('background',('url('+response));
     });
   }
