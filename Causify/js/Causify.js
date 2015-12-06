@@ -14,7 +14,7 @@ $("#FBLoginButton").click(function(){
 });
 
 $( document ).ready(function() {
-    $('#slideshow1').cycle();
+    $('#header').cycle();
 });
 
 //FACEBOOK LOGIN

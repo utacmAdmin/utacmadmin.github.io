@@ -385,7 +385,7 @@
 		color: rgba(255,255,255,.3);
 	}	
 	
-	.pics { height: 100%; width: 100%; padding:0; margin:0; overflow: hidden }
+	.pics { height: auto; width: auto; padding:0; margin:0; overflow: hidden }
 	.pics img { height: auto; width: auto; padding: 15px; border: 1px solid #ccc; background-color: #eee; top:0; left:0 }
 	.pics img {
 		-moz-border-radius: 10px; -webkit-border-radius: 10px;
