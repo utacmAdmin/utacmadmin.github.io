@@ -385,8 +385,8 @@
 		color: rgba(255,255,255,.3);
 	}	
 	
-	.pics { height: auto; width: auto; padding:0; margin:0; overflow: hidden }
-	.pics img { height: auto; width: auto; padding: 15px;background-color: #eee; top:0; left:0 }
+	.pics { height: auto; width: auto; padding:0; margin:0; overflow: hidden; }
+	.pics img { height: auto; width: auto; background-color: #eee;  object-fit: cover; }
 	
 	#slideshow1{
 		display: inline-block;
