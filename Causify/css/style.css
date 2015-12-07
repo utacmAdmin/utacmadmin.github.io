@@ -390,6 +390,6 @@
 	
 	#slideshow1{
 		display: inline-block;
-		height: 420px;
+		height: 100%;
 		width: 1000px;
 	}
